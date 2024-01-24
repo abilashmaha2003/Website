@@ -25,7 +25,8 @@ li a{
     font-size: 30px;
 }
 .head-text{
-    background-color: #9df7fd;
+    background-color: #9df7fd ;
+    opacity: 0.8;
     text-align: center;
     font-family: 'Tw Cen Mt';
     font-size: 45px;
@@ -72,13 +73,12 @@ li a{
 
 
 .clm{
+    display: flex;
     float:left;
     width: 25%;
     padding: 10px;
 }
-.clm img{
-    height: 300px;
-}
+
 .section-3{
     margin-top: 1cm;
     text-align:center;
@@ -95,6 +95,23 @@ li a{
     font-family: 'Tw Cen Mt';
     font-weight: 500;
 }
+.section-5{
+    font-size: 25px;
+    justify-content: left;
+    background-color: #9df7fd;
+    padding: 100px;
+    color:black;
+
+}
+.section-6{
+    align-items: right;
+    justify-content: right;
+    font-size: 25px;
+    padding: 100px;
+    color:black;
+
+}
+
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
@@ -109,14 +126,19 @@ body{
 	margin:auto;
 }
 .row{
-	display: flex;
-	flex-wrap: wrap;
+	display: flex; 
+	
 }
 ul{
 	list-style: none;
 }
 .awards{
     text-align: center;
+}
+.tag-line{
+    text-align: center;
+    font-family: 'Tw Cen Mt';
+    font-size: 40px;
 }
 .footer{
 	background-color: #24262b;
