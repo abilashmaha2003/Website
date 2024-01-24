@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 li{
     list-style: none;
@@ -22,26 +22,26 @@ li{
 li a{
     margin-left: 50px;
     color: black;
-    font-size: 30px;
+    font-size: 25px;
 }
 .head-text{
     background-color: #9df7fd ;
     opacity: 0.8;
     text-align: center;
     font-family: 'Tw Cen Mt';
-    font-size: 45px;
+    font-size: 30px;
 }
 .para{
     font-size: 29px;
 }
 .get-button{
     font-family: 'Tw Cen Mt';
-    font-size: 20px;
+    font-size: 20gitpx;
     padding: 25px;
     color: white;
-    background-color: #0CBBC7;
+    background-color: #015f66;
     opacity: 0.5;
-    border-color: #0CBBC7;
+    border-color: #015f66;
     border-style: solid ;
 }
 .section-1{
@@ -91,27 +91,33 @@ li a{
 }
 .section-4{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Tw Cen Mt';
     font-weight: 500;
 }
 .section-5{
+    font-family: 'Tw Cen Mt';
     font-size: 25px;
-    justify-content: left;
+    text-align: left;
     background-color: #9df7fd;
-    padding: 100px;
+    padding-left: 175px;
     color:black;
 
 }
 .section-6{
-    align-items: right;
-    justify-content: right;
+    font-family: 'Tw Cen Mt';
+    text-align: center;
+    justify-content: center;
     font-size: 25px;
-    padding: 100px;
+    padding: 50px;
     color:black;
 
 }
-
+.section-7{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Tw Cen Mt';
+}
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
@@ -182,17 +188,4 @@ ul{
 .footer-col ul li a:hover{
 	color: #ffffff;
 	padding-left: 8px;
-}
-
-/*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
 }
